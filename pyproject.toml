@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "solveDaCube"
+version = "1.0.0"
+description = "An interactive ASCII terminal Rubik's Cube solver — From the minds of IBM Bob & Daneyand"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "kociemba",
+    "rich",
+    "readchar",
+]
+
+[project.scripts]
+solveDaCube = "solveDaCube.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
