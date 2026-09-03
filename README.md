@@ -66,15 +66,31 @@ Navigate cells with **arrow keys** and press a color key to fill:
 | `G` | Green  |
 | `B` | Blue   |
 
+**Input controls:**
+
+| Key | Action |
+|-----|--------|
+| `←` `↑` `↓` `→` | Navigate cells |
+| `W` / `Y` / `R` / `O` / `G` / `B` | Fill current cell with color |
+| `Backspace` | Clear current cell |
+| `Enter` | Solve (once all 54 stickers are filled) |
+| `Q` | Quit |
+
 Center cells are pre-filled and locked. Once all 54 stickers are filled, press **Enter** to solve.
 
 ### Solution Playback
 
 - The solution is displayed as a move sequence, e.g.: `R U R' U' R' F R2 U' R' U' R U R' F'`
 - The cube **auto-plays** each move (0.5s delay), re-rendering after every step
-- Press `S` during playback to switch to **step mode** (Space/Enter advances)
-- Press `A` to resume **auto-play** from step mode
-- Press `R` at the end to restart with a new cube
+
+**Playback controls:**
+
+| Key | Action |
+|-----|--------|
+| `S` | Switch to step mode (press Space/Enter to advance each move) |
+| `A` | Resume auto-play from step mode |
+| `R` | Restart with a new cube |
+| `Q` | Quit |
 
 ---
 

@@ -93,7 +93,7 @@ Create the full project skeleton: directory structure, `pyproject.toml`, `README
 - `src/` layout: `[tool.setuptools.packages.find] where = ["src"]`
 - README follows workspace convention: ASCII art, emoji, attribution footer "From the minds of IBM Bob & Daneyand..."
 
-**Status:** [ ] pending
+**Status:** [x] done
 
 ---
 
@@ -124,7 +124,7 @@ Define the cube's internal data model and validation logic. This is the foundati
 - Standard color-to-face mapping (solved state): U=white, R=red, F=green, D=yellow, L=orange, B=blue (or any consistent assignment; user will define their own per input)
 - `apply_move` rotation tables are well-known permutation arrays for each face turn — can use a hardcoded lookup table
 
-**Status:** [ ] pending
+**Status:** [x] done
 
 ---
 
@@ -163,7 +163,7 @@ Build the interactive terminal UI that displays an unfolded ASCII cube layout an
 - Center sticker indices per face: index 4 of each face's 9-sticker array (0-indexed)
 - This function is called from `main.py` and returns a `CubeState`
 
-**Status:** [ ] pending
+**Status:** [x] done
 
 ---
 
@@ -189,7 +189,7 @@ Wrap the `kociemba` library to take a validated `CubeState` and return the optim
 - The solved cube kociemba string: `"UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"`
 - kociemba guarantees ≤20 moves (God's Number)
 
-**Status:** [ ] pending
+**Status:** [x] done
 
 ---
 
@@ -221,7 +221,7 @@ After solving, display the move sequence with move count, then animate each move
 - `rich.live` or `time.sleep` + clear/redraw works well for animation
 - Move highlighting: use `rich` markup to bold/color the current move in the printed sequence
 
-**Status:** [ ] pending
+**Status:** [x] done
 
 ---
 
@@ -250,7 +250,7 @@ Wire all components together into a cohesive CLI application. Handle startup, ar
 - `__main__.py` should call `main()` so `python -m solveDaCube` also works
 - Welcome banner should match workspace README ASCII art style
 
-**Status:** [ ] pending
+**Status:** [x] done
 
 ---
 
