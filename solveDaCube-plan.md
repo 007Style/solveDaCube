@@ -266,11 +266,11 @@ Complete the test suite, do a final pass on polish (colors, spacing, edge cases)
 - README has accurate quick-start, usage, demo GIF placeholder, project layout, and attribution footer
 
 **Todo List:**
-- [ ] Fill in any missing unit tests (cube model, solver, edge cases)
-- [ ] Test on a solved cube (0 moves), a 1-move scramble, and a 20-move scramble
-- [ ] Fix any rendering edge cases discovered during testing
-- [ ] Finalize README: update quick-start with real install command, add usage examples, add project layout tree
-- [ ] Ensure `solveDaCube --version` and `solveDaCube --demo` work
-- [ ] Run `pytest` — all tests green
+- [x] Fill in any missing unit tests (cube model, solver, edge cases)
+- [x] Test on a solved cube (0 moves), a 1-move scramble, and a 20-move scramble
+- [x] Fix any rendering edge cases discovered during testing
+- [x] Finalize README: update quick-start with real install command, add usage examples, add project layout tree
+- [x] Ensure `solveDaCube --version` and `solveDaCube --demo` work
+- [x] Run `pytest` — all tests green (30 passed)
 
-**Status:** [ ] pending
+**Status:** [x] done
