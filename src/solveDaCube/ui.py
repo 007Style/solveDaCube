@@ -56,7 +56,7 @@ from solveDaCube.cube import (
 # Rich style table: color code → rich style string
 # ---------------------------------------------------------------------------
 COLOR_STYLE: dict[str, str] = {
-    W:       "bold white on white",
+    W:       "bold black on white",
     Y:       "bold black on yellow",
     COLOR_R: "bold white on red",
     O:       "bold black on orange1",

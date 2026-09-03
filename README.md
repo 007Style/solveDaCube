@@ -66,7 +66,7 @@ Navigate cells with **arrow keys** and press a color key to fill each sticker:
 
 | Key | Color  | Terminal Style |
 |-----|--------|----------------|
-| `W` | White  | White on white background |
+| `W` | White  | Black on white background |
 | `Y` | Yellow | Black on yellow background |
 | `R` | Red    | White on red background |
 | `O` | Orange | Black on orange background |
