@@ -22,9 +22,27 @@
 
 ## Quick Start
 
+### Install with pipx (recommended)
+
+```bash
+pipx install solveDaCube
+solveDaCube --demo
+```
+
+pipx gives solveDaCube its own isolated environment and puts a `solveDaCube` command on your `PATH`.
+Upgrade with `pipx upgrade solveDaCube`, remove with `pipx uninstall solveDaCube`. If the command is
+not found, run `pipx ensurepath` and open a new terminal.
+
+> **Build tools:** the `kociemba` dependency has no prebuilt wheels for current Python versions, so
+> it compiles a small C extension on install. You need a C compiler: Xcode Command Line Tools on
+> macOS (`xcode-select --install`), `build-essential` and `python3-dev` on Debian/Ubuntu, or the
+> Visual Studio Build Tools on Windows.
+
+### Run from source
+
 ```bash
 # Clone and set up a virtual environment
-git clone https://github.com/daneyand/solveDaCube.git
+git clone https://github.com/007Style/solveDaCube.git
 cd solveDaCube
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e .

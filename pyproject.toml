@@ -9,6 +9,15 @@ description = "An interactive ASCII terminal Rubik's Cube solver — From the mi
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
+keywords = ["rubiks-cube", "cube", "solver", "kociemba", "terminal", "tui", "ascii", "puzzle"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+]
 dependencies = [
     "kociemba",
     "rich",
@@ -22,6 +31,11 @@ dev = [
 
 [project.scripts]
 solveDaCube = "solveDaCube.main:main"
+
+[project.urls]
+Homepage = "https://github.com/007Style/solveDaCube"
+Source = "https://github.com/007Style/solveDaCube"
+Issues = "https://github.com/007Style/solveDaCube/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
